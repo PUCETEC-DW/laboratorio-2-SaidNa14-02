@@ -1,6 +1,6 @@
 let contenedor = document.getElementById("contenedor");
 let searchbar = document.getElementById("search")
-let countries = []; // Definir `countries` a nivel global
+let countries = []; 
 
 fetch("https://restcountries.com/v3.1/all")
     .then((response) => response.json())
@@ -22,7 +22,6 @@ function mostrarPaises(lista) {
             <p>${country.population}</p>
             <h2>Bandera</h2>
             <img src='${country.flags.png}' alt='Bandera de ${country.name.common}'>`;
-        
         contenedor.appendChild(div);
     });
 }
