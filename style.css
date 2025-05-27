@@ -1,9 +1,7 @@
-body {
-    --primary-color: #5c6ac4;    
+body { 
     --secondary-color: #f7f9fc; 
     --accent-color: #10b981;     
     --text-color: #1f2937;      
-    --shadow-color: rgba(0, 0, 0, 0.06);
     font-size: 1rem;
     font-family: Arial, Helvetica, sans-serif;
 }
